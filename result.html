@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>{{ result }}</p>
+    <h2>SHAP Summary Plot</h2>
+    <img src="{{ url_for('static', filename='shap_summary.png') }}" alt="SHAP Summary Plot">
+</body>
+</html>
